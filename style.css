@@ -8,13 +8,38 @@ body {
   font-size: 120%;
 }
 
+
 .logo{
   width: 300px;
+  padding-left: 40px;
 }
 
 ul {
   display: flex;
   justify-content: flex-end;
   padding-right: 40px;
-  
+} 
+
+ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
 }
+
+ul li a{ 
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 700;
+  
+  margin: 0 20px;
+}
+
+.slider{
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+}
+
