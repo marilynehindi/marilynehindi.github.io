@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
   
 body {
@@ -12,12 +12,14 @@ body {
 .logo{
   width: 300px;
   padding-left: 40px;
+ 
 }
 
 ul {
   display: flex;
   justify-content: flex-end;
   padding-right: 40px;
+  margin-top: -45px;
 } 
 
 ul li {
@@ -38,7 +40,76 @@ ul li a{
 }
 
 .slider{
-  width: 1500px;
+  width: 100%;
+  padding-top: 20px;
   
 }
 
+.content{
+  width: 1000px;
+  height: 2000px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.balkis{
+  width: 600px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  
+}
+.atm {
+  width: 230px;
+  margin-left: 60px;
+  
+}
+
+.tuesdays{
+  width: 360px;
+  margin-left: 30px;
+
+}
+
+.kfarhouna{
+  width:570px;
+   margin-left: 30px;
+  margin-bottom: 70px;
+ 
+}
+
+.architect {
+ width: 500px;
+  margin-bottom: 55px;
+  margin-left: 20px;
+  
+}
+
+.dg{
+  width: 230px;
+  margin-left: 90px;
+  margin-top: -20px;
+}
+
+.alba {
+  width: 250px;
+  margin-left: 147px;
+  padding-bottom: 100px;
+ 
+}
+
+.book{
+  width: 390px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+.marguerite{
+  width: 300px;
+  margin-left: 100px;
+}
+
+.telegraphe{
+   width: 300px;
+  margin-left: 200px;
+  
+}
