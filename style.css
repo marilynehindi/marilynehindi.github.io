@@ -9,6 +9,8 @@ body {
 }
 
 
+
+
 .logo{
   width: 300px;
   padding-left: 40px;
@@ -113,3 +115,18 @@ ul li a{
   margin-left: 200px;
   
 }
+
+.content2{
+  width: 1000px;
+  height: 2000px;
+  background-color: #ebebeb;
+  margin: 0 auto;
+  padding-top: 400px;
+}
+
+.balkis-mac{
+  width:700px;
+  padding-left: 300px;
+  margin-top: -150px;
+}
+
