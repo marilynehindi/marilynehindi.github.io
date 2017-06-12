@@ -22,6 +22,24 @@ body {
   padding-left: 40px;
  }
 
+.scroll{
+  position: absolute;
+  width: 30px;
+  padding-top: 970px;
+  margin-left: 50%;
+  
+  transition: transform 200ms ease-in;
+}
+
+.scroll:hover{
+  transform: translateY(8px);
+}
+
+.slider{
+  width: 100%;
+  padding-top: 110px;
+}
+
 ul {
   display: flex;
   justify-content: flex-end;
@@ -112,22 +130,7 @@ padding-top: 359%;
  padding-top: 147%; 
 }
 
-.scroll{
-  position: absolute;
-  width: 30px;
-  padding-top: 970px;
-  margin-left: 50%;
-  
-  transition: transform 200ms ease-in;
-}
-
-.scroll:hover{
-  transform: translateY(8px);
-}
-.slider{
-  width: 100%;
-  padding-top: 105px;
-}
+/* projects */
 
 .content{
   width: 1000px;
@@ -223,6 +226,9 @@ padding-top: 359%;
   transform: translateY(-5px);
 }
 
+
+/* Balkis */
+
 .description{
   width: 1000px;
   margin: 0 auto;
@@ -299,6 +305,9 @@ padding-top: 359%;
   margin-left: 100px
 }
 
+
+/* ATM */
+
 .content3 {
   width: 1000px;
   height: 4900px;
@@ -314,7 +323,6 @@ padding-top: 359%;
   color: #e78246;
   font-family: sans-serif;  
 }
-
 
 
 .atm-phone{
@@ -375,6 +383,9 @@ padding-top: 359%;
   margin-top: 100px;
   background-color: white;
  }
+
+
+/* tuesdays */
 
 .content4 {
   width: 1000px;
@@ -450,6 +461,9 @@ padding-top: 359%;
   margin-top: 90px;
 }
 
+
+/* kfarhouna */
+
 .description-4{
   width: 1000px;
   margin: 0 auto;
@@ -524,6 +538,7 @@ padding-top: 359%;
   margin-top: 80px;
 }
 
+/* AB Architects */
 
 .ab-mac{
   width:750px;
@@ -600,6 +615,8 @@ padding-top: 359%;
   margin-top: 30px;
 }
 
+/* Dolce and Gabbana */
+
 .content7 {
   width: 1000px;
   height: 5650px;
@@ -675,6 +692,8 @@ padding-top: 359%;
   
 }
 
+/* save food */
+
 .content8 {
   width: 1000px;
   height: 6480px;
@@ -748,6 +767,7 @@ padding-top: 359%;
   background-color: white;
  }
 
+/* Book */
 
 .content9 {
   width: 1000px;
@@ -831,6 +851,8 @@ padding-top: 359%;
   margin-top: 90px;
 
 }
+
+
 /*-- skills --*/
 .frame-1{
   margin-top: 300px;
@@ -840,78 +862,15 @@ padding-top: 359%;
 .frame-2{
   margin-left: 100px;
 }
+
 /*-- photography --*/
 
+
 .photos{
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 
-.img-1{
-  margin-left: 665px;
-  margin-top: 100px;
-  position: absolute;
-}
-
-.img-2{ 
-  margin-left: 32px;
-  margin-top: 940px;
-  position: absolute;
-}
-
-.img-3{
-  position: absolute;
-  margin-top: 1207px;
-  margin-left: 665px;
-}
-
-.img-4{
-  position: absolute;
-  margin-top: 1930px;
-  margin-left: 820px;
-}
-
-.img-5{
-  position: absolute;
-  margin-top: 2750px;
-  margin-left: 40px;
-}
-
-.img-6{
-  position: absolute;
-  margin-top: 3440px;
-  margin-left: 950px;
-}
-
-.img-7{
-  position: absolute;
-  margin-top: 2817px;
-  margin-left: 1000px;
-}
-
-.img-8{
-  position: absolute;
-  margin-top: 4110px;
-  margin-left: 1060px;
-}
-
-.img-9{
-  position: absolute;
-  margin-top: 4110px;
-  margin-left: 100px;
-}
-
-.img-10{
-  position: absolute;
-  margin-top: 4700px;
-  margin-left: 0px;
-}
-
-.img-11{
-  position: absolute;
-  margin-top: 4900px;
-  margin-left: 1060px;
-}
 
 .ls-1{
   margin-left: 85px;
@@ -1066,6 +1025,11 @@ animl-8{
 
 
 
+.photos-traces{
+ padding-top: 100px;
+
+  
+}
 
 
 
