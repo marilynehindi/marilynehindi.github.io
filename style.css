@@ -1025,13 +1025,16 @@ animl-8{
 
 
 
-.photos-traces{
- padding-top: 100px;
+.ph{
+transition:transform 200ms ease-in;
 
-  
 }
 
+.ph:hover{
+transform: translateX(10px);
 
+   
+}
 
 
 
