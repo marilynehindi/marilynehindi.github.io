@@ -169,6 +169,38 @@ padding-top: 368%;
  padding-top: 125%; 
 }
 
+/* projects content
+.projects-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 110px;
+  
+  display: flex;
+  flex-flow: row wrap;
+  
+  align-items: center;
+}
+.projects-content a {
+  display: block;
+  
+  width: 75%;
+}
+.projects-content a.small {
+  width: 25%;
+}
+.projects-content a.medium {
+  width: 50%;
+}
+.projects-content a.big {
+  width: 100%;
+}
+
+.projects-content a img {
+  width: 100%;
+  height: auto;
+}
+ */
+
 /* projects */
 
 @media(max-width:700px){
@@ -179,158 +211,88 @@ padding-top: 368%;
   }
 }
 
-  .content{
-  width: 1000px;
-  height: 2000px;
+.content{ 
+  width: 100%;
   margin: 0 auto;
   padding-top: 110px;
-  }
-
-@media(max-width:700px){
-  .balkis{
-    max-width: 330px;
-  }
 }
+@media(min-width: 1000px){
+  .content{ 
+    width: 1000px;
 
-.balkis{
-  width: 600px;
-  margin-bottom: 40px;
-  margin-left: 20px;
-  transition: transform 200ms ease-in;
-}
-
-.balkis:hover{
-  transform: translateY(-5px);
-}
-
-@media(max-width:700px){
-  .atm{
-    max-width: 150px;
     margin: 0 auto;
-    
+    padding-top: 110px;
   }
 }
-.atm {
-  
-  width: 230px;
-  margin-left: 60px;
+
+.project-image {
+  width: 100%;
   transition: transform 200ms ease-in;
 }
-
-.atm:hover{
+.project-image-small {
+  width: 50%;
+  margin: 0 auto;
+}
+.project-image-medium {
+  width: 70%;
+  margin: 0 auto;
+}
+.project-image:hover {
   transform: translateY(-5px);
 }
 
-@media(max-width:700px){
+
+
+@media(min-width:700px){
+  .balkis{
+    width: 600px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  .atm{
+    width: 230px;
+    margin-left: 60px;
+  }
   .tuesdays{
-    max-width: 230px;
-    
+    width: 360px;
+    margin-left: 30px;
   }
-}
-.tuesdays{
-  width: 360px;
-  margin-left: 30px;
-  transition: transform 200ms ease-in;
-}
-
-.tuesdays:hover{
-  transform: translateY(-5px);
-}
-
-@media(max-width:700px){
   .kfarhouna{
-    max-width: 330px;
-    
+    width:570px;
+    margin-left: 30px;
+    margin-bottom: 70px;
   }
-}
-.kfarhouna{
-  width:570px;
-   margin-left: 30px;
-  margin-bottom: 70px;
-  transition: transform 200ms ease-in;
-}
-
-.kfarhouna:hover{
-  transform: translateY(-5px);
-}
-
-@media(max-width:700px){
-  .architect{
-    max-width: 330px;
-    
+  .architect {
+    width: 500px;
+    margin-bottom: 55px;
+    margin-left: 20px;
   }
-}
-.architect {
- width: 500px;
-  margin-bottom: 55px;
-  margin-left: 20px;
-  transition: transform 200ms ease-in; 
-}
-
-.architect:hover{
-  transform: translateY(-5px);
-}
-
-@media(max-width:700px){
   .dg{
-    max-width: 150px;
-    
+    width: 230px;
+    margin-left: 90px;
+    margin-top: -20px;
   }
-}
-.dg{
-  width: 230px;
-  margin-left: 90px;
-  margin-top: -20px;
-   transition: transform 200ms ease-in;
-}
-
-.dg:hover{
-  transform: translateY(-5px);
-}
-
-@media(max-width:700px){
-  .savefood{
-    max-width: 150px;
-    
+  .savefood {
+    width: 250px;
+    margin-left: 147px;
+    padding-bottom: 100px;
   }
-}
-.savefood {
-  width: 250px;
-  margin-left: 147px;
-  padding-bottom: 100px;
-  transition: transform 200ms ease-in;
- 
-}
-
-.savefood:hover{
-  transform: translateY(-5px);
-}
-
-@media(max-width:700px){
   .book{
-    max-width: 250px;
- }
+    width: 390px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
 }
-
-.book{
-  width: 390px;
-  margin-left: 150px;
-  margin-bottom: 20px;
-  transition: transform 200ms ease-in;
-}
-
-.book:hover{
-  transform: translateY(-5px);
-}
-
 
 /* Balkis */
 
 @media(max-width:700px){
   .description{
+    margin: 0 auto;
     max-width: 290px;
     display: flex;
     display: table-row;
+    padding-top: 200px;
   
    }
 }
@@ -381,9 +343,6 @@ padding-top: 368%;
   .resume{
     max-width: 200px;
     display: flex;
-    
-    
-    
   }
 }
 .resume{
@@ -421,17 +380,14 @@ padding-top: 368%;
 
 @media(max-width:700px){
   .content2{
-  background-color: #ebebeb;
+ 
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
   max-width: 370px;
-    
-  
+  max-height: 3200px;
   }
 }
 .content2 {
-  display: flex;
-  flex-direction: row;
   margin: 0 auto;
   width: 1000px;
   height: 6920px;
