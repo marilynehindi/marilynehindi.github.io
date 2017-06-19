@@ -1449,6 +1449,7 @@ padding-top: 368%;
 
 .photos {
   padding-top: 120px;
+  width: 1300px;
 }
 
 @media(max-width:700px){
