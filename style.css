@@ -1449,7 +1449,6 @@ padding-top: 368%;
 
 .photos {
   padding-top: 120px;
-  width: 1300px;
 }
 
 @media(max-width:700px){
@@ -1460,6 +1459,10 @@ padding-top: 368%;
   }
 }
 
+.photographie{
+  width:1300px;
+  padding-top: 120px;
+}
 .photos-single {
   position: relative;
   display: inline-block;
