@@ -45,7 +45,7 @@ body {
 
 .slider{
   max-width: 100%;
-  padding-top: 100px;
+  padding-top: 110px;
 }
 
 @media(max-width:700px){
@@ -66,7 +66,7 @@ body {
 .scroll{
   position: absolute;
   width: 30px;
-  top: 880px;
+  top: 965px;
   left: 50%;
   transition: transform 200ms ease-in;
 }
@@ -177,28 +177,28 @@ ul li a{
 }
 
 .page-one{
-  padding-top: 389%;
+  padding-top: 353.5%;
 }
 .page-two{
-  padding-top: 270%;
+  padding-top: 245%;
 }
 .page-three{
-  padding-top: 651%;
+  padding-top: 592%;
 }
 .page-four{
-  padding-top:1058%;
+  padding-top:909%;
 }
 .page-five{
- padding-top: 298%; 
+ padding-top: 279%; 
 }
 .page-six{
- padding-top: 320%; 
+ padding-top: 292%; 
 }
 .page-seven{
-padding-top: 368%;  
+padding-top: 335%;  
 }
 .page-eight{
- padding-top: 125%; 
+ padding-top: 114%; 
 }
 
 /* projects */
@@ -834,7 +834,7 @@ padding-top: 368%;
 
 .content5 {
   width: 1000px;
-  height: 18500px;
+  height: 17500px;
   background-color: #cdcccc;
   margin: 0 auto;
   margin-top: 30px;
@@ -978,7 +978,7 @@ padding-top: 368%;
 
 .content6 {
   width: 1000px;
-  height: 5250px;
+  height: 5410px;
   background-color: #ebebeb;
   margin: 0 auto;
   margin-top: 30px;
@@ -996,7 +996,7 @@ padding-top: 368%;
 
 .content7 {
   width: 1000px;
-  height: 5650px;
+  height: 5680px;
   background-color: #ebebeb;
   margin: 0 auto;
   margin-top: 50px;
@@ -1113,10 +1113,9 @@ padding-top: 368%;
 
 .pages-dg{
   width: 400px;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  margin-left:  65px;
   margin-top: 100px;
+  background-color: white;
 }
 @media(max-width:700px){
 .pages-dg{
@@ -1132,7 +1131,7 @@ padding-top: 368%;
 
 .content8 {
   width: 1000px;
-  height: 6480px;
+  height: 6500px;
   background-color: #cdcccc;
   margin: 0 auto;
   margin-top: 30px;
@@ -1245,18 +1244,19 @@ padding-top: 368%;
     margin-top: 15px;
   }
 }
-
 .pages-sf{
   width: 400px;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  margin-left:  65px;
   margin-top: 100px;
   background-color: white;
  }
+
 @media(max-width:700px){
 .pages-sf{
   max-width: 250px;
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
   margin-top: 40px;
   }
 }
@@ -1447,6 +1447,21 @@ padding-top: 368%;
 }
 /*-- photography --*/
 
+.photographie{
+  padding-top: 120px;
+  
+}
+.photographie img{
+  width: 680px;
+}
+
+@media(max-width:700px){
+  .photographie img{
+    max-width: 100%;
+    
+  }
+}
+
 .photos {
   padding-top: 120px;
 }
@@ -1455,15 +1470,10 @@ padding-top: 368%;
   .photos{
     padding-top: 110px;
     max-width: 375px;
-    
-  }
-}
-
-.photographie{
-  width:1300px;
-  padding-top: 120px;
+    }
 }
 .photos-single {
+  
   position: relative;
   display: inline-block;
 }
@@ -1513,6 +1523,7 @@ padding-top: 368%;
 }
 
 /*-- paintings --*/
+
 .paintings{
   padding-top: 110px;
 }
@@ -1521,7 +1532,7 @@ padding-top: 368%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 350px;
   }
   .paitings{
     margin-top:100px;
