@@ -1084,7 +1084,7 @@ padding-top: 335%;
 
 .resume-dg{
   width: 450px;
-  color: #836a27;
+  color: #d6ab16;
   font-size: 20px; 
   line-height: 28px;
   margin-left: 190px;
@@ -1607,7 +1607,6 @@ padding-top: 335%;
   display: flex;
   margin: 0 auto;
   max-width: 330px;
-  padding-top: 35px;
 }
 }
 
@@ -1685,7 +1684,7 @@ padding-top: 335%;
   text-decoration: none;
   font-size: 20px;
   padding-left: 25px;
-  padding-bottom: 40px;
+  
 }
 }
 
@@ -1764,7 +1763,7 @@ padding-top: 335%;
   padding-top: 430px;
 }
 
-.cv{
+.curi{
   width: 100%;
   padding-top: 120px;
 }
