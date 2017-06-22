@@ -9,6 +9,22 @@ body {
   margin: 0;
 }
 
+.intro{
+  position: absolute;
+  width: 600px;
+  padding-top: 200px;
+  justify-content: center;
+  margin: 0 auto;
+  left: 35%;
+}
+
+@media(max-width:700px){
+  .intro{
+    max-width: 260px;
+    padding-top: 110px;
+    left:15%;
+  }
+}
 @media(max-width:700px){
   
   .header{
@@ -107,14 +123,15 @@ ul li a{
     margin: 0 auto;
     font-size: 12px;
     
-    margin: 7px;
+    margin: 8px;
    
  }
 }
 
 .buttons:hover,
 .button-active {
-  border-bottom: 4px solid deeppink; 
+  border-bottom: 4px solid green;
+  
 }
 
 .arrow {
@@ -1448,7 +1465,7 @@ padding-top: 335%;
 /*-- photography --*/
 
 .photographie{
-  padding-top: 120px;
+  padding-top: 130px;
   
 }
 .photographie img{
@@ -1509,18 +1526,6 @@ padding-top: 335%;
     
   }
 }
-.about{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 50%;
-  padding-top: 300px;
-  
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 25px;
-}
 
 /*-- paintings --*/
 
@@ -1569,4 +1574,110 @@ padding-top: 335%;
   margin-top: -600px
 }
 
+/*-- aboutme --*/
 
+.about{
+  padding-top: 250px;
+  
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+@media(max-width:700px){
+  .about{
+  padding-top: 110px;
+  
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 1px;
+ }
+}
+.about p{
+  display: flex;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+@media(max-width:700px){
+  .about p{
+  display: flex;
+  margin: 0 auto;
+  max-width: 350px;
+  padding-top: 35px;
+}
+}
+
+.hello{
+ position: absolute;
+ display: flex;
+ margin-left: 500px;
+ margin-top: -30px;
+ width: 200px;
+}
+
+@media(max-width:700px){
+  .hello{
+ position: absolute;
+ display: flex;
+ margin-left: 20px;
+    margin-top: 30px;
+    
+  }
+}
+
+.iam {
+  width: 550px;
+  font-weight:800;
+  font-size:25px;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+@media(max-width:700px){
+  .iam {
+  width: 350px;
+  font-weight:800;
+  font-size:25px;
+
+  padding-left: 210px;
+}
+}
+
+.idid{
+  display: flex;
+  width: 900px;
+  font-weight:00;
+  font-size:20px; 
+}
+
+.besides{
+  display: flex;
+  width: 900px;
+  font-weight:00;
+  font-size:20px; 
+}
+
+.interest{
+  display: flex;
+  width: 900px;
+  font-weight:00;
+  font-size:20px; 
+}
+
+/*-- contact --*/
+
+.icons img{
+  width: 40px;
+  padding-top: 500px;
+  margin: 0 auto;
+  
+}
+
+.icons{
+  display: flex;
+  display: inline;
+  justify-content: center;
+  margin: 0 auto;
+}
