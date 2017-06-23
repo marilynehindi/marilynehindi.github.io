@@ -11,18 +11,18 @@ body {
 
 .intro{
   position: absolute;
-  width: 600px;
+  width: 350px;
   padding-top: 200px;
   justify-content: center;
   margin: 0 auto;
-  left: 35%;
+  left: 41.5%;
 }
 
 @media(max-width:700px){
   .intro{
-    max-width: 260px;
-    padding-top: 110px;
-    left:15%;
+    max-width: 160px;
+    padding-top: 123px;
+    left:30%;
   }
 }
 @media(max-width:700px){
@@ -1084,7 +1084,7 @@ padding-top: 335%;
 
 .resume-dg{
   width: 450px;
-  color: #d6ab16;
+  color: #836a27;
   font-size: 20px; 
   line-height: 28px;
   margin-left: 190px;
